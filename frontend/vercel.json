@@ -6,18 +6,9 @@
       "use": "@vercel/static-build",
       "config": {
         "distDir": "build",
-        "installCommand": "npm ci",
+        "installCommand": "npm install",
         "buildCommand": "npm run build"
       }
-    }
-  ],
-  "routes": [
-    {
-      "handle": "filesystem"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/build/$1"
     }
   ]
 }
