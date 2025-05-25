@@ -16,7 +16,7 @@
 - REST Countries API: https://restcountries.com/
 
 ## Deployment
-The app is deployed at: [Your deployment URL]
+The app is deployed at: [https://yasasi-kariyawasam-react-frontend-application-using-jdrufn0eb.vercel.app/]
 
 ## Testing
 Run tests with: `npm test`
